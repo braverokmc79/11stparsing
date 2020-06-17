@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); 
+
+* {
+	font-family: 'Nanum Gothic';
+}
+
+h1 {
+	font-family: 'Hanna';
+}
+
+.container{
+	margin-bottom: 50px;
+}
+#searchFrm {
+	margin-bottom: 10px;
+}
+
+#products_11_st thead tr {
+	background-color: #eeeeee;
+}
+
+#products_11_st tbody tr td:hover {
+	cursor: pointer;
+}
+
+#products_11_st>tbody>tr>td {
+	vertical-align: middle;
+}
+
+.c_prd_name strong {
+	color: #111;
+	font-weight: 400;
+	font-family:"Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;
+	font-size:16px;
+
+}
+.c_prd_name:hover{
+	text-decoration: underline;
+}
+.no-gutters {
+	padding-right: 0px;
+}
+
+
+.star-rating {
+	width: 84px;
+    height: 15px;
+}
+
+.star-rating, .star-rating span {
+	display: inline-block;
+	height: 15px;
+	overflow: hidden;
+	background: url(../images/star.png) no-repeat;
+	background-size: auto 30px;
+}
+
+.star-rating span {
+	background-position: left bottom;
+	line-height: 0;
+	vertical-align: top;
+}
+
+.wrap-star{
+	margin: 15px 0px;	
+}
+.text-delivery{
+	margin: 5px 0px;	
+	display: block;
+    color: #666;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 19px;
+    font-family:"Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;
+}
+
+.price_seller{
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    font-weight: bold;	
+}
+.text-unit{
+	font-size: 18px;
+    line-height: 26px;
+    color: #000;
+}
+a.c_review{
+	text-decoration: none;
+	    top: -3px;
+    margin-left: 5px;
+    display: i;
+    position: relative;
+}
+.c_prd_sellerNick{
+	margin-top: 25px;	
+}
+.c_prd_sellerNick .name{
+	font-family: "Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;	
+	
+}
+.totalCount{
+    position: relative;
+    width: 10%;
+    float: right
+}
+	
